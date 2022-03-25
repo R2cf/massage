@@ -7,7 +7,7 @@ def send_message(number, message):
     base_url = 'http://enterprise.smsgupshup.com/GatewayAPI/rest?method=sendMessage'
     params = {
         'send_to':number,
-        'msg': f'{message}',
+        'msg': f'{message} is your CollegeSearch Mobile Verification OTP',
         'userid':'2000192767',
         'password':'YYyzU9YC',
         'v':'1.1',
